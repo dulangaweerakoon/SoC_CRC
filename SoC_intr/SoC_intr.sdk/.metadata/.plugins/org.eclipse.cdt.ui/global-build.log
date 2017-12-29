@@ -1,0 +1,1399 @@
+15:26:06 **** Build of project test_intr_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/canps_v3_2/src"
+make -C microblaze_0/libsrc/canps_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/ddrps_v1_0/src"
+make -C microblaze_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/emacps_v3_6/src"
+make -C microblaze_0/libsrc/emacps_v3_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpiops_v3_3/src"
+make -C microblaze_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/iicps_v3_5/src"
+make -C microblaze_0/libsrc/iicps_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/myiphwac_v1_0/src"
+make -C microblaze_0/libsrc/myiphwac_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/qspips_v3_4/src"
+make -C microblaze_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/sdps_v3_3/src"
+make -C microblaze_0/libsrc/sdps_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartps_v3_5/src"
+make -C microblaze_0/libsrc/uartps_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/usbps_v2_4/src"
+make -C microblaze_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/canps_v3_2/src"
+make -C microblaze_0/libsrc/canps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling canps"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/ddrps_v1_0/src"
+make -C microblaze_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in microblaze_0/libsrc/emacps_v3_6/src"
+make -C microblaze_0/libsrc/emacps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in microblaze_0/libsrc/gpiops_v3_3/src"
+make -C microblaze_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in microblaze_0/libsrc/iicps_v3_5/src"
+make -C microblaze_0/libsrc/iicps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling iicps"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/myiphwac_v1_0/src"
+make -C microblaze_0/libsrc/myiphwac_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling myiphwac..."
+myiphwac_selftest.c: In function 'MYIPHWAC_Reg_SelfTest':
+myiphwac_selftest.c:52:57: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( MYIPHWAC_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                         ^~
+myiphwac_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in microblaze_0/libsrc/qspips_v3_4/src"
+make -C microblaze_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in microblaze_0/libsrc/sdps_v3_3/src"
+make -C microblaze_0/libsrc/sdps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+"Running Make libs in microblaze_0/libsrc/uartps_v3_5/src"
+make -C microblaze_0/libsrc/uartps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in microblaze_0/libsrc/usbps_v2_4/src"
+make -C microblaze_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling usbps"
+'Finished building libraries'
+15:26:12 **** Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: test_intr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_intr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_intr.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_intr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_intr.elf  |tee "test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3208	    308	   3108	   6624	   19e0	test_intr.elf
+'Finished building: test_intr.elf.size'
+' '
+15:30:20 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:109:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(a,c,16);
+     ^~~~
+../src/helloworld.c:95:10: warning: unused variable 'q' [-Wunused-variable]
+     char q[100];
+          ^
+../src/helloworld.c:93:11: warning: unused variable 'p' [-Wunused-variable]
+     u32 a,p;
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_intr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_intr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_intr.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_intr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_intr.elf  |tee "test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4389	    308	   3111	   7808	   1e80	test_intr.elf
+'Finished building: test_intr.elf.size'
+' '
+15:31:14 **** Incremental Build of configuration Debug for project test_intr ****
+make all 
+make: Nothing to be done for `all'.
+15:32:20 **** Incremental Build of configuration Debug for project test_intr ****
+make all 
+make: Nothing to be done for `all'.
+15:33:33 **** Incremental Build of configuration Debug for project test_intr ****
+make all 
+make: Nothing to be done for `all'.
+15:34:28 **** Incremental Build of configuration Debug for project test_intr ****
+make all 
+make: Nothing to be done for `all'.
+15:36:19 **** Incremental Build of configuration Debug for project test_intr ****
+make all 
+make: Nothing to be done for `all'.
+15:36:26 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:109:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(a,c,16);
+     ^~~~
+../src/helloworld.c:95:10: warning: unused variable 'q' [-Wunused-variable]
+     char q[100];
+          ^
+../src/helloworld.c:93:11: warning: unused variable 'p' [-Wunused-variable]
+     u32 a,p;
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_intr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_intr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_intr.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_intr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_intr.elf  |tee "test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4421	    308	   3111	   7840	   1ea0	test_intr.elf
+'Finished building: test_intr.elf.size'
+' '
+15:36:30 **** Incremental Build of configuration Debug for project test_intr ****
+make all 
+make: Nothing to be done for `all'.
+15:37:45 **** Incremental Build of configuration Debug for project test_intr ****
+make all 
+make: Nothing to be done for `all'.
+15:38:35 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:109:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(a,c,16);
+     ^~~~
+../src/helloworld.c:95:10: warning: unused variable 'q' [-Wunused-variable]
+     char q[100];
+          ^
+../src/helloworld.c:93:11: warning: unused variable 'p' [-Wunused-variable]
+     u32 a,p;
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_intr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_intr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_intr.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_intr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_intr.elf  |tee "test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4389	    308	   3111	   7808	   1e80	test_intr.elf
+'Finished building: test_intr.elf.size'
+' '
+15:43:24 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:110:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(a,c,16);
+     ^~~~
+../src/helloworld.c:96:10: warning: unused variable 'q' [-Wunused-variable]
+     char q[100];
+          ^
+../src/helloworld.c:94:11: warning: unused variable 'p' [-Wunused-variable]
+     u32 a,p;
+           ^
+At top level:
+../src/helloworld.c:91:14: warning: 'InterruptController' defined but not used [-Wunused-variable]
+ static XIntc InterruptController;
+              ^~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_intr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_intr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_intr.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_intr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_intr.elf  |tee "test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4389	    308	   3111	   7808	   1e80	test_intr.elf
+'Finished building: test_intr.elf.size'
+' '
+15:47:00 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../src/helloworld.c: In function 'initInterrupt':
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:98:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:93:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:103:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:93:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:124:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(a,c,16);
+     ^~~~
+../src/helloworld.c:110:10: warning: unused variable 'q' [-Wunused-variable]
+     char q[100];
+          ^
+../src/helloworld.c:108:11: warning: unused variable 'p' [-Wunused-variable]
+     u32 a,p;
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_intr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_intr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_intr.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_intr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_intr.elf  |tee "test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4389	    308	   3111	   7808	   1e80	test_intr.elf
+'Finished building: test_intr.elf.size'
+' '
+15:47:33 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../src/helloworld.c: In function 'initInterrupt':
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:98:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:93:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:103:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:93:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:124:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(a,c,16);
+     ^~~~
+../src/helloworld.c:110:10: warning: unused variable 'q' [-Wunused-variable]
+     char q[100];
+          ^
+../src/helloworld.c:108:11: warning: unused variable 'p' [-Wunused-variable]
+     u32 a,p;
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_intr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_intr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_intr.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_intr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_intr.elf  |tee "test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4389	    308	   3111	   7808	   1e80	test_intr.elf
+'Finished building: test_intr.elf.size'
+' '
+15:47:57 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../src/helloworld.c: In function 'initInterrupt':
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:98:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:93:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:103:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:93:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:125:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(a,c,16);
+     ^~~~
+../src/helloworld.c:111:10: warning: unused variable 'q' [-Wunused-variable]
+     char q[100];
+          ^
+../src/helloworld.c:109:11: warning: unused variable 'p' [-Wunused-variable]
+     u32 a,p;
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_intr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_intr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_intr.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_intr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_intr.elf  |tee "test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5445	    312	   3267	   9024	   2340	test_intr.elf
+'Finished building: test_intr.elf.size'
+' '
+15:48:12 **** Incremental Build of configuration Debug for project test_intr ****
+make all 
+make: Nothing to be done for `all'.
+15:49:08 **** Incremental Build of configuration Debug for project test_intr ****
+make all 
+make: Nothing to be done for `all'.
+16:26:11 **** Incremental Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../src/helloworld.c: In function 'initInterrupt':
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:98:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:93:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:103:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:93:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:126:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(a,c,16);
+     ^~~~
+../src/helloworld.c:112:10: warning: unused variable 'q' [-Wunused-variable]
+     char q[100];
+          ^
+../src/helloworld.c:110:11: warning: unused variable 'p' [-Wunused-variable]
+     u32 a,p;
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_intr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_intr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_intr.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_intr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_intr.elf  |tee "test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5445	    312	   3267	   9024	   2340	test_intr.elf
+'Finished building: test_intr.elf.size'
+' '
+16:28:06 **** Incremental Build of configuration Debug for project test_intr ****
+make all 
+make: Nothing to be done for `all'.
+16:30:10 **** Incremental Build of configuration Debug for project test_intr ****
+make all 
+make: Nothing to be done for `all'.
+17:39:07 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../src/helloworld.c: In function 'initInterrupt':
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:103:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:98:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:108:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:98:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:131:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(a,c,16);
+     ^~~~
+../src/helloworld.c:136:2: error: 'XIn' undeclared (first use in this function)
+  XIn
+  ^~~
+../src/helloworld.c:136:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:138:5: error: expected ';' before 'return'
+     return 0;
+     ^~~~~~
+../src/helloworld.c:117:10: warning: unused variable 'q' [-Wunused-variable]
+     char q[100];
+          ^
+../src/helloworld.c:115:11: warning: unused variable 'p' [-Wunused-variable]
+     u32 a,p;
+           ^
+make: *** [src/helloworld.o] Error 1
+17:39:28 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../src/helloworld.c: In function 'initInterrupt':
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:103:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:98:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:108:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:98:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:131:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(a,c,16);
+     ^~~~
+../src/helloworld.c:117:10: warning: unused variable 'q' [-Wunused-variable]
+     char q[100];
+          ^
+../src/helloworld.c:115:11: warning: unused variable 'p' [-Wunused-variable]
+     u32 a,p;
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_intr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_intr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_intr.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_intr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_intr.elf  |tee "test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5453	    312	   3267	   9032	   2348	test_intr.elf
+'Finished building: test_intr.elf.size'
+' '
+17:41:38 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../src/helloworld.c: In function 'initInterrupt':
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:103:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:98:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:108:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:98:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:135:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(a,c,16);
+     ^~~~
+../src/helloworld.c:121:10: warning: unused variable 'q' [-Wunused-variable]
+     char q[100];
+          ^
+../src/helloworld.c:119:11: warning: unused variable 'p' [-Wunused-variable]
+     u32 a,p;
+           ^
+../src/helloworld.c: In function 'SetUpInterruptSystem':
+../src/helloworld.c:114:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_intr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_intr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_intr.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_intr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_intr.elf  |tee "test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5453	    312	   3267	   9032	   2348	test_intr.elf
+'Finished building: test_intr.elf.size'
+' '
+17:42:27 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../src/helloworld.c: In function 'initInterrupt':
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:103:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:98:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:108:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:98:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:142:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(a,c,16);
+     ^~~~
+../src/helloworld.c:128:10: warning: unused variable 'q' [-Wunused-variable]
+     char q[100];
+          ^
+../src/helloworld.c:126:11: warning: unused variable 'p' [-Wunused-variable]
+     u32 a,p;
+           ^
+../src/helloworld.c: In function 'SetUpInterruptSystem':
+../src/helloworld.c:121:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_intr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_intr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_intr.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_intr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_intr.elf  |tee "test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5453	    312	   3267	   9032	   2348	test_intr.elf
+'Finished building: test_intr.elf.size'
+' '
+17:43:35 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../src/helloworld.c: In function 'initInterrupt':
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:103:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:98:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:108:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:98:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:159:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(a,c,16);
+     ^~~~
+../src/helloworld.c:145:10: warning: unused variable 'q' [-Wunused-variable]
+     char q[100];
+          ^
+../src/helloworld.c:143:11: warning: unused variable 'p' [-Wunused-variable]
+     u32 a,p;
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_intr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_intr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_intr.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_intr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_intr.elf  |tee "test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5453	    312	   3267	   9032	   2348	test_intr.elf
+'Finished building: test_intr.elf.size'
+' '
+17:44:18 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../src/helloworld.c: In function 'initInterrupt':
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:103:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:98:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:108:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:98:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+../src/helloworld.c:111:11: warning: implicit declaration of function 'SetUpInterruptSystem' [-Wimplicit-function-declaration]
+  Status = SetUpInterruptSystem(&InterruptController,&TimerCounterInst);
+           ^~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:111:54: error: 'TimerCounterInst' undeclared (first use in this function)
+  Status = SetUpInterruptSystem(&InterruptController,&TimerCounterInst);
+                                                      ^~~~~~~~~~~~~~~~
+../src/helloworld.c:111:54: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:113:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/helloworld.c:98:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:164:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(a,c,16);
+     ^~~~
+../src/helloworld.c:150:10: warning: unused variable 'q' [-Wunused-variable]
+     char q[100];
+          ^
+../src/helloworld.c:148:11: warning: unused variable 'p' [-Wunused-variable]
+     u32 a,p;
+           ^
+make: *** [src/helloworld.o] Error 1
+17:44:34 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../src/helloworld.c: In function 'initInterrupt':
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:103:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:98:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:108:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:98:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+../src/helloworld.c:111:11: warning: implicit declaration of function 'SetUpInterruptSystem' [-Wimplicit-function-declaration]
+  Status = SetUpInterruptSystem(&InterruptController,null);
+           ^~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:111:53: error: 'null' undeclared (first use in this function)
+  Status = SetUpInterruptSystem(&InterruptController,null);
+                                                     ^~~~
+../src/helloworld.c:111:53: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:113:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/helloworld.c:98:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:164:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(a,c,16);
+     ^~~~
+../src/helloworld.c:150:10: warning: unused variable 'q' [-Wunused-variable]
+     char q[100];
+          ^
+../src/helloworld.c:148:11: warning: unused variable 'p' [-Wunused-variable]
+     u32 a,p;
+           ^
+make: *** [src/helloworld.o] Error 1
+17:44:46 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../src/helloworld.c: In function 'initInterrupt':
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:103:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:98:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:108:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:98:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+../src/helloworld.c:111:11: warning: implicit declaration of function 'SetUpInterruptSystem' [-Wimplicit-function-declaration]
+  Status = SetUpInterruptSystem(&InterruptController,NULL);
+           ^~~~~~~~~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:113:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/helloworld.c:98:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:164:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(a,c,16);
+     ^~~~
+../src/helloworld.c:150:10: warning: unused variable 'q' [-Wunused-variable]
+     char q[100];
+          ^
+../src/helloworld.c:148:11: warning: unused variable 'p' [-Wunused-variable]
+     u32 a,p;
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_intr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_intr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_intr.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_intr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_intr.elf  |tee "test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6685	    312	   3267	  10264	   2818	test_intr.elf
+'Finished building: test_intr.elf.size'
+' '
+17:45:11 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'SetUpInterruptSystem':
+../src/helloworld.c:95:27: error: 'InterruptCallback' undeclared (first use in this function)
+        (XInterruptHandler)InterruptCallback,
+                           ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:95:27: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../src/helloworld.c: In function 'initInterrupt':
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:129:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:124:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:134:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:124:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:139:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/helloworld.c:124:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:164:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(a,c,16);
+     ^~~~
+../src/helloworld.c:150:10: warning: unused variable 'q' [-Wunused-variable]
+     char q[100];
+          ^
+../src/helloworld.c:148:11: warning: unused variable 'p' [-Wunused-variable]
+     u32 a,p;
+           ^
+make: *** [src/helloworld.o] Error 1
+17:46:27 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'SetUpInterruptSystem':
+../src/helloworld.c:95:27: error: 'InterruptCallback' undeclared (first use in this function)
+        (XInterruptHandler)InterruptCallback,
+                           ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:95:27: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../src/helloworld.c: In function 'initInterrupt':
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:129:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:124:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:134:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:124:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:139:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/helloworld.c:124:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:164:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(a,c,16);
+     ^~~~
+../src/helloworld.c:150:10: warning: unused variable 'q' [-Wunused-variable]
+     char q[100];
+          ^
+../src/helloworld.c:148:11: warning: unused variable 'p' [-Wunused-variable]
+     u32 a,p;
+           ^
+make: *** [src/helloworld.o] Error 1
+17:46:59 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../src/helloworld.c: In function 'initInterrupt':
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:130:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:125:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:135:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:125:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:140:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/helloworld.c:125:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:165:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(a,c,16);
+     ^~~~
+../src/helloworld.c:151:10: warning: unused variable 'q' [-Wunused-variable]
+     char q[100];
+          ^
+../src/helloworld.c:149:11: warning: unused variable 'p' [-Wunused-variable]
+     u32 a,p;
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_intr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_intr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_intr.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_intr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_intr.elf  |tee "test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6685	    312	   3267	  10264	   2818	test_intr.elf
+'Finished building: test_intr.elf.size'
+' '
+17:47:59 **** Incremental Build of configuration Debug for project test_intr ****
+make all 
+make: Nothing to be done for `all'.
+17:49:43 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../src/helloworld.c: In function 'initInterrupt':
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:130:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:125:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:135:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:125:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:140:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/helloworld.c:125:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:165:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(a,c,16);
+     ^~~~
+../src/helloworld.c:151:10: warning: unused variable 'q' [-Wunused-variable]
+     char q[100];
+          ^
+../src/helloworld.c:149:11: warning: unused variable 'p' [-Wunused-variable]
+     u32 a,p;
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_intr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_intr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_intr.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_intr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_intr.elf  |tee "test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6649	    312	   3271	  10232	   27f8	test_intr.elf
+'Finished building: test_intr.elf.size'
+' '
+17:50:37 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'InterruptCallback':
+../src/helloworld.c:98:2: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+  itoa(a,c,16);
+  ^~~~
+../src/helloworld.c:94:7: warning: unused variable 'q' [-Wunused-variable]
+  char q[100];
+       ^
+../src/helloworld.c:92:8: warning: unused variable 'p' [-Wunused-variable]
+  u32 a,p;
+        ^
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../src/helloworld.c: In function 'initInterrupt':
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:139:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:134:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:144:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:134:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:149:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/helloworld.c:134:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_intr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_intr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_intr.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_intr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_intr.elf  |tee "test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6621	    312	   3267	  10200	   27d8	test_intr.elf
+'Finished building: test_intr.elf.size'
+' '
+17:52:08 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:68:8: error: unknown type name 'bool'
+ static bool printed = 0;
+        ^~~~
+../src/helloworld.c: In function 'InterruptCallback':
+../src/helloworld.c:99:2: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+  itoa(a,c,16);
+  ^~~~
+../src/helloworld.c:95:7: warning: unused variable 'q' [-Wunused-variable]
+  char q[100];
+       ^
+../src/helloworld.c:93:8: warning: unused variable 'p' [-Wunused-variable]
+  u32 a,p;
+        ^
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../src/helloworld.c: In function 'initInterrupt':
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:140:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:135:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:145:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:135:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:150:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/helloworld.c:135:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+At top level:
+../src/helloworld.c:68:13: warning: 'printed' defined but not used [-Wunused-variable]
+ static bool printed = 0;
+             ^~~~~~~
+make: *** [src/helloworld.o] Error 1
+17:52:30 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'InterruptCallback':
+../src/helloworld.c:99:2: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+  itoa(a,c,16);
+  ^~~~
+../src/helloworld.c:95:7: warning: unused variable 'q' [-Wunused-variable]
+  char q[100];
+       ^
+../src/helloworld.c:93:8: warning: unused variable 'p' [-Wunused-variable]
+  u32 a,p;
+        ^
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../src/helloworld.c: In function 'initInterrupt':
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:140:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:135:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:145:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:135:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:150:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/helloworld.c:135:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+At top level:
+../src/helloworld.c:68:12: warning: 'printed' defined but not used [-Wunused-variable]
+ static int printed = 0;
+            ^~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_intr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_intr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_intr.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_intr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_intr.elf  |tee "test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6621	    312	   3267	  10200	   27d8	test_intr.elf
+'Finished building: test_intr.elf.size'
+' '
+17:53:25 **** Auto Build of configuration Debug for project test_intr ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_intr_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'InterruptCallback':
+../src/helloworld.c:100:2: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+  itoa(a,c,16);
+  ^~~~
+../src/helloworld.c:96:7: warning: unused variable 'q' [-Wunused-variable]
+  char q[100];
+       ^
+../src/helloworld.c:94:8: warning: unused variable 'p' [-Wunused-variable]
+  u32 a,p;
+        ^
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../src/helloworld.c: In function 'initInterrupt':
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:143:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:138:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:148:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:138:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+In file included from ../../test_intr_bsp/microblaze_0/include/myiphwac.h:8:0,
+                 from ../src/helloworld.c:51:
+../../test_intr_bsp/microblaze_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/helloworld.c:153:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/helloworld.c:138:6: note: declared here
+ void initInterrupt(){
+      ^~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_intr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_intr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_intr.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_intr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_intr.elf  |tee "test_intr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6645	    312	   3267	  10224	   27f0	test_intr.elf
+'Finished building: test_intr.elf.size'
+' '
+17:53:39 **** Incremental Build of configuration Debug for project test_intr ****
+make all 
+make: Nothing to be done for `all'.
+17:54:38 **** Incremental Build of configuration Debug for project test_intr ****
+make all 
+make: Nothing to be done for `all'.
+17:55:01 **** Incremental Build of configuration Debug for project test_intr ****
+make all 
+make: Nothing to be done for `all'.
+17:55:26 **** Incremental Build of configuration Debug for project test_intr ****
+make all 
+make: Nothing to be done for `all'.
+17:56:09 **** Incremental Build of configuration Debug for project test_intr ****
+make all 
+make: Nothing to be done for `all'.
+18:42:08 **** Incremental Build of configuration Debug for project test_intr ****
+make all 
+make: Nothing to be done for `all'.
+19:12:47 **** Incremental Build of configuration Debug for project test_intr ****
+make all 
+make: Nothing to be done for `all'.

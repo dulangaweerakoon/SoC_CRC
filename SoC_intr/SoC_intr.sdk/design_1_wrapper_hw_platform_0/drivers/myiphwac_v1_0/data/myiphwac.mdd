@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER myiphwac
+	OPTION supported_peripherals = (myiphwac);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = myiphwac;
+END DRIVER

@@ -1,0 +1,371 @@
+18:30:24 INFO  : Registering command handlers for SDK TCF services
+18:30:24 INFO  : Launching XSCT server: xsct.bat -interactive D:\ADS\SoC_Intr_cache\SoC_Intr_cache.sdk\temp_xsdb_launch_script.tcl
+18:30:28 INFO  : XSCT server has started successfully.
+18:30:28 INFO  : Successfully done setting XSCT server connection channel  
+18:30:28 INFO  : Successfully done setting SDK workspace  
+18:30:28 INFO  : Processing command line option -hwspec D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper.hdf.
+18:31:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:31:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A" && level==0} -index 1' command is executed.
+18:31:56 INFO  : FPGA configured successfully with bitstream "D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/download.bit"
+18:32:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A" && level==0} -index 1' command is executed.
+18:32:11 INFO  : 'fpga -state' command is executed.
+18:32:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:32:11 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203823914A' is selected.
+18:32:11 INFO  : 'jtag frequency' command is executed.
+18:32:11 INFO  : Sourcing of 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+18:32:11 INFO  : Context for 'APU' is selected.
+18:32:11 INFO  : Hardware design information is loaded from 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+18:32:11 INFO  : 'configparams force-mem-access 1' command is executed.
+18:32:11 INFO  : Context for 'APU' is selected.
+18:32:11 INFO  : 'stop' command is executed.
+18:32:11 INFO  : 'ps7_init' command is executed.
+18:32:11 INFO  : 'ps7_post_config' command is executed.
+18:32:11 INFO  : Context for processor 'microblaze_0' is selected.
+18:32:11 INFO  : Processor reset is completed for 'microblaze_0'.
+18:32:11 INFO  : Context for processor 'microblaze_0' is selected.
+18:32:12 INFO  : The application 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/test_ip/Debug/test_ip.elf' is downloaded to processor 'microblaze_0'.
+18:32:12 INFO  : 'configparams force-mem-access 0' command is executed.
+18:32:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 0
+loadhw -hw D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 1
+dow D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/test_ip/Debug/test_ip.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:32:13 INFO  : Memory regions updated for context APU
+18:32:13 INFO  : Memory regions updated for context MicroBlaze #0
+18:32:13 INFO  : Memory regions updated for context MicroBlaze #0
+18:32:13 INFO  : Context for processor 'microblaze_0' is selected.
+18:32:13 INFO  : 'con' command is executed.
+18:32:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 1
+con
+----------------End of Script----------------
+
+18:32:13 INFO  : Launch script is exported to file 'D:\ADS\SoC_Intr_cache\SoC_Intr_cache.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_test_ip.elf_on_local.tcl'
+18:32:32 INFO  : Disconnected from the channel tcfchan#1.
+18:32:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A" && level==0} -index 1' command is executed.
+18:32:33 INFO  : 'fpga -state' command is executed.
+18:32:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:32:34 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203823914A' is selected.
+18:32:34 INFO  : 'jtag frequency' command is executed.
+18:32:34 INFO  : Sourcing of 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+18:32:34 INFO  : Context for 'APU' is selected.
+18:32:35 INFO  : Hardware design information is loaded from 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+18:32:35 INFO  : 'configparams force-mem-access 1' command is executed.
+18:32:35 INFO  : Context for 'APU' is selected.
+18:32:35 INFO  : 'stop' command is executed.
+18:32:36 INFO  : 'ps7_init' command is executed.
+18:32:36 INFO  : 'ps7_post_config' command is executed.
+18:32:36 INFO  : Context for processor 'microblaze_0' is selected.
+18:32:36 INFO  : Processor reset is completed for 'microblaze_0'.
+18:32:36 INFO  : Context for processor 'microblaze_0' is selected.
+18:32:36 INFO  : The application 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/test_ip/Debug/test_ip.elf' is downloaded to processor 'microblaze_0'.
+18:32:36 INFO  : 'configparams force-mem-access 0' command is executed.
+18:32:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 0
+loadhw -hw D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 1
+dow D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/test_ip/Debug/test_ip.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:32:37 INFO  : Memory regions updated for context APU
+18:32:37 INFO  : Memory regions updated for context MicroBlaze #0
+18:32:37 INFO  : Memory regions updated for context MicroBlaze #0
+18:32:37 INFO  : Context for processor 'microblaze_0' is selected.
+18:32:37 INFO  : 'con' command is executed.
+18:32:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 1
+con
+----------------End of Script----------------
+
+18:32:37 INFO  : Launch script is exported to file 'D:\ADS\SoC_Intr_cache\SoC_Intr_cache.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_test_ip.elf_on_local.tcl'
+18:32:54 INFO  : Disconnected from the channel tcfchan#2.
+18:32:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A" && level==0} -index 1' command is executed.
+18:32:55 INFO  : 'fpga -state' command is executed.
+18:32:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:32:55 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203823914A' is selected.
+18:32:55 INFO  : 'jtag frequency' command is executed.
+18:32:55 INFO  : Sourcing of 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+18:32:55 INFO  : Context for 'APU' is selected.
+18:32:57 INFO  : Hardware design information is loaded from 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+18:32:57 INFO  : 'configparams force-mem-access 1' command is executed.
+18:32:57 INFO  : Context for 'APU' is selected.
+18:32:57 INFO  : 'stop' command is executed.
+18:32:57 INFO  : 'ps7_init' command is executed.
+18:32:57 INFO  : 'ps7_post_config' command is executed.
+18:32:57 INFO  : Context for processor 'microblaze_0' is selected.
+18:32:57 INFO  : Processor reset is completed for 'microblaze_0'.
+18:32:57 INFO  : Context for processor 'microblaze_0' is selected.
+18:32:57 INFO  : The application 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/test_ip/Debug/test_ip.elf' is downloaded to processor 'microblaze_0'.
+18:32:57 INFO  : 'configparams force-mem-access 0' command is executed.
+18:32:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 0
+loadhw -hw D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 1
+dow D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/test_ip/Debug/test_ip.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:32:59 INFO  : Memory regions updated for context APU
+18:32:59 INFO  : Memory regions updated for context MicroBlaze #0
+18:32:59 INFO  : Memory regions updated for context MicroBlaze #0
+18:32:59 INFO  : Context for processor 'microblaze_0' is selected.
+18:32:59 INFO  : 'con' command is executed.
+18:32:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 1
+con
+----------------End of Script----------------
+
+18:32:59 INFO  : Launch script is exported to file 'D:\ADS\SoC_Intr_cache\SoC_Intr_cache.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_test_ip.elf_on_local.tcl'
+18:33:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:33:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A" && level==0} -index 1' command is executed.
+18:33:49 INFO  : FPGA configured successfully with bitstream "D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/download.bit"
+18:33:55 INFO  : Disconnected from the channel tcfchan#3.
+18:33:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A" && level==0} -index 1' command is executed.
+18:33:56 INFO  : 'fpga -state' command is executed.
+18:33:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:33:56 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203823914A' is selected.
+18:33:56 INFO  : 'jtag frequency' command is executed.
+18:33:56 INFO  : Sourcing of 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+18:33:56 INFO  : Context for 'APU' is selected.
+18:33:58 INFO  : Hardware design information is loaded from 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+18:33:58 INFO  : 'configparams force-mem-access 1' command is executed.
+18:33:58 INFO  : Context for 'APU' is selected.
+18:33:58 INFO  : 'stop' command is executed.
+18:33:58 INFO  : 'ps7_init' command is executed.
+18:33:58 INFO  : 'ps7_post_config' command is executed.
+18:33:58 INFO  : Context for processor 'microblaze_0' is selected.
+18:33:58 INFO  : Processor reset is completed for 'microblaze_0'.
+18:33:59 INFO  : Context for processor 'microblaze_0' is selected.
+18:33:59 INFO  : The application 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/test_ip/Debug/test_ip.elf' is downloaded to processor 'microblaze_0'.
+18:33:59 INFO  : 'configparams force-mem-access 0' command is executed.
+18:33:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 0
+loadhw -hw D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 1
+dow D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/test_ip/Debug/test_ip.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:34:00 INFO  : Memory regions updated for context APU
+18:34:00 INFO  : Memory regions updated for context MicroBlaze #0
+18:34:00 INFO  : Memory regions updated for context MicroBlaze #0
+18:34:00 INFO  : Context for processor 'microblaze_0' is selected.
+18:34:00 INFO  : 'con' command is executed.
+18:34:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 1
+con
+----------------End of Script----------------
+
+18:34:00 INFO  : Launch script is exported to file 'D:\ADS\SoC_Intr_cache\SoC_Intr_cache.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_test_ip.elf_on_local.tcl'
+18:34:43 INFO  : Disconnected from the channel tcfchan#4.
+18:35:09 INFO  : Registering command handlers for SDK TCF services
+18:35:09 INFO  : Launching XSCT server: xsct.bat -interactive D:\ADS\SoC_Intr_cache\SoC_Intr_cache.sdk\temp_xsdb_launch_script.tcl
+18:35:10 INFO  : XSCT server has started successfully.
+18:35:10 INFO  : Successfully done setting XSCT server connection channel  
+18:35:10 INFO  : Successfully done setting SDK workspace  
+18:35:10 INFO  : Processing command line option -hwspec D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper.hdf.
+18:35:10 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+18:35:42 INFO  : Registering command handlers for SDK TCF services
+18:35:43 INFO  : Launching XSCT server: xsct.bat -interactive D:\ADS\SoC_Intr_cache\SoC_Intr_cache.sdk\temp_xsdb_launch_script.tcl
+18:35:44 INFO  : XSCT server has started successfully.
+18:35:44 INFO  : Successfully done setting XSCT server connection channel  
+18:35:44 INFO  : Successfully done setting SDK workspace  
+18:35:44 INFO  : Processing command line option -hwspec D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper.hdf.
+18:35:44 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+18:36:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:36:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A" && level==0} -index 1' command is executed.
+18:36:08 INFO  : FPGA configured successfully with bitstream "D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/download.bit"
+18:36:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A" && level==0} -index 1' command is executed.
+18:36:21 INFO  : 'fpga -state' command is executed.
+18:36:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:36:21 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203823914A' is selected.
+18:36:21 INFO  : 'jtag frequency' command is executed.
+18:36:21 INFO  : Sourcing of 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+18:36:21 INFO  : Context for 'APU' is selected.
+18:36:21 INFO  : Hardware design information is loaded from 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+18:36:21 INFO  : 'configparams force-mem-access 1' command is executed.
+18:36:21 INFO  : Context for 'APU' is selected.
+18:36:21 INFO  : 'stop' command is executed.
+18:36:21 INFO  : 'ps7_init' command is executed.
+18:36:21 INFO  : 'ps7_post_config' command is executed.
+18:36:21 INFO  : Context for processor 'microblaze_0' is selected.
+18:36:21 INFO  : Processor reset is completed for 'microblaze_0'.
+18:36:21 INFO  : Context for processor 'microblaze_0' is selected.
+18:36:22 INFO  : The application 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/test_ip/Debug/test_ip.elf' is downloaded to processor 'microblaze_0'.
+18:36:22 INFO  : 'configparams force-mem-access 0' command is executed.
+18:36:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 0
+loadhw -hw D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 1
+dow D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/test_ip/Debug/test_ip.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:36:22 INFO  : Memory regions updated for context APU
+18:36:22 INFO  : Memory regions updated for context MicroBlaze #0
+18:36:22 INFO  : Memory regions updated for context MicroBlaze #0
+18:36:22 INFO  : Context for processor 'microblaze_0' is selected.
+18:36:22 INFO  : 'con' command is executed.
+18:36:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 1
+con
+----------------End of Script----------------
+
+18:36:22 INFO  : Launch script is exported to file 'D:\ADS\SoC_Intr_cache\SoC_Intr_cache.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_test_ip.elf_on_local.tcl'
+18:37:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:37:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A" && level==0} -index 1' command is executed.
+18:37:11 INFO  : FPGA configured successfully with bitstream "D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/download.bit"
+18:37:31 INFO  : Disconnected from the channel tcfchan#1.
+18:37:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A" && level==0} -index 1' command is executed.
+18:37:33 INFO  : 'fpga -state' command is executed.
+18:37:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:37:33 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203823914A' is selected.
+18:37:33 INFO  : 'jtag frequency' command is executed.
+18:37:33 INFO  : Sourcing of 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+18:37:33 INFO  : Context for 'APU' is selected.
+18:37:35 INFO  : Hardware design information is loaded from 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+18:37:35 INFO  : 'configparams force-mem-access 1' command is executed.
+18:37:35 INFO  : Context for 'APU' is selected.
+18:37:35 INFO  : 'stop' command is executed.
+18:37:36 INFO  : 'ps7_init' command is executed.
+18:37:36 INFO  : 'ps7_post_config' command is executed.
+18:37:36 INFO  : Context for processor 'microblaze_0' is selected.
+18:37:36 INFO  : Processor reset is completed for 'microblaze_0'.
+18:37:36 INFO  : Context for processor 'microblaze_0' is selected.
+18:37:36 INFO  : The application 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/test_ip/Debug/test_ip.elf' is downloaded to processor 'microblaze_0'.
+18:37:36 INFO  : 'configparams force-mem-access 0' command is executed.
+18:37:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 0
+loadhw -hw D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 1
+dow D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/test_ip/Debug/test_ip.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:37:36 INFO  : Memory regions updated for context APU
+18:37:36 INFO  : Memory regions updated for context MicroBlaze #0
+18:37:36 INFO  : Memory regions updated for context MicroBlaze #0
+18:37:36 INFO  : Context for processor 'microblaze_0' is selected.
+18:37:36 INFO  : 'con' command is executed.
+18:37:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 1
+con
+----------------End of Script----------------
+
+18:37:36 INFO  : Launch script is exported to file 'D:\ADS\SoC_Intr_cache\SoC_Intr_cache.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_test_ip.elf_on_local.tcl'
+18:38:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:38:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A" && level==0} -index 1' command is executed.
+18:38:27 INFO  : FPGA configured successfully with bitstream "D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/download.bit"
+18:38:32 INFO  : Disconnected from the channel tcfchan#2.
+18:38:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A" && level==0} -index 1' command is executed.
+18:38:33 INFO  : 'fpga -state' command is executed.
+18:38:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:38:34 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203823914A' is selected.
+18:38:34 INFO  : 'jtag frequency' command is executed.
+18:38:34 INFO  : Sourcing of 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+18:38:34 INFO  : Context for 'APU' is selected.
+18:38:35 INFO  : Hardware design information is loaded from 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+18:38:35 INFO  : 'configparams force-mem-access 1' command is executed.
+18:38:35 INFO  : Context for 'APU' is selected.
+18:38:35 INFO  : 'stop' command is executed.
+18:38:36 INFO  : 'ps7_init' command is executed.
+18:38:36 INFO  : 'ps7_post_config' command is executed.
+18:38:36 INFO  : Context for processor 'microblaze_0' is selected.
+18:38:36 INFO  : Processor reset is completed for 'microblaze_0'.
+18:38:36 INFO  : Context for processor 'microblaze_0' is selected.
+18:38:36 INFO  : The application 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/test_ip/Debug/test_ip.elf' is downloaded to processor 'microblaze_0'.
+18:38:36 INFO  : 'configparams force-mem-access 0' command is executed.
+18:38:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 0
+loadhw -hw D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 1
+dow D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/test_ip/Debug/test_ip.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:38:36 INFO  : Memory regions updated for context APU
+18:38:36 INFO  : Memory regions updated for context MicroBlaze #0
+18:38:36 INFO  : Memory regions updated for context MicroBlaze #0
+18:38:36 INFO  : Context for processor 'microblaze_0' is selected.
+18:38:36 INFO  : 'con' command is executed.
+18:38:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203823914A"} -index 1
+con
+----------------End of Script----------------
+
+18:38:36 INFO  : Launch script is exported to file 'D:\ADS\SoC_Intr_cache\SoC_Intr_cache.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_test_ip.elf_on_local.tcl'
+18:39:59 INFO  : Disconnected from the channel tcfchan#3.
+18:40:13 INFO  : Registering command handlers for SDK TCF services
+18:40:13 INFO  : Launching XSCT server: xsct.bat -interactive D:\ADS\SoC_Intr_cache\SoC_Intr_cache.sdk\temp_xsdb_launch_script.tcl
+18:40:14 INFO  : XSCT server has started successfully.
+18:40:14 INFO  : Successfully done setting XSCT server connection channel  
+18:40:14 INFO  : Successfully done setting SDK workspace  
+18:40:15 INFO  : Processing command line option -hwspec D:/ADS/SoC_Intr_cache/SoC_Intr_cache.sdk/design_1_wrapper.hdf.
+18:40:15 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.

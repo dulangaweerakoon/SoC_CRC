@@ -1,0 +1,707 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Dec 29 18:18:41 2017
+# Process ID: 4456
+# Current directory: D:/ADS/SoC_Intr_cache/SoC_Intr_cache.runs/design_1_myiphwac_0_0_synth_1
+# Command line: vivado.exe -log design_1_myiphwac_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_myiphwac_0_0.tcl
+# Log file: D:/ADS/SoC_Intr_cache/SoC_Intr_cache.runs/design_1_myiphwac_0_0_synth_1/design_1_myiphwac_0_0.vds
+# Journal file: D:/ADS/SoC_Intr_cache/SoC_Intr_cache.runs/design_1_myiphwac_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_myiphwac_0_0.tcl -notrace
+Command: synth_design -top design_1_myiphwac_0_0 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 4912 
+WARNING: [Synth 8-2611] redeclaration of ansi port crcdone is not allowed [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/crc_hwac.v:33]
+WARNING: [Synth 8-2611] redeclaration of ansi port crc_out is not allowed [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/crc_hwac.v:38]
+WARNING: [Synth 8-2611] redeclaration of ansi port crc_cal_enable_out is not allowed [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S00_AXI.v:272]
+WARNING: [Synth 8-2611] redeclaration of ansi port bit_stream_out is not allowed [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S00_AXI.v:273]
+WARNING: [Synth 8-1958] event expressions must result in a singular type [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S00_AXI.v:656]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 413.418 ; gain = 112.410
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_myiphwac_0_0' [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ip/design_1_myiphwac_0_0/synth/design_1_myiphwac_0_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'myiphwac_v1_0' [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0.v:4]
+	Parameter C_S00_AXI_ID_WIDTH bound to: 0 - type: integer 
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter C_S00_AXI_AWUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S00_AXI_ARUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S00_AXI_WUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S00_AXI_RUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S00_AXI_BUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_INTR_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_INTR_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_NUM_OF_INTR bound to: 1 - type: integer 
+	Parameter C_INTR_SENSITIVITY bound to: -1 - type: integer 
+	Parameter C_INTR_ACTIVE_STATE bound to: -1 - type: integer 
+	Parameter C_IRQ_SENSITIVITY bound to: 1 - type: integer 
+	Parameter C_IRQ_ACTIVE_STATE bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'myiphwac_v1_0_S00_AXI' [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_ID_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter C_S_AXI_AWUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_ARUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_WUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_RUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_BUSER_WIDTH bound to: 0 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 6 - type: integer 
+	Parameter USER_NUM_MEM bound to: 1 - type: integer 
+	Parameter STATE_WIDTH bound to: 3 - type: integer 
+	Parameter MAX_STREAM_WIDTH bound to: 1024 - type: integer 
+	Parameter STATE_INIT bound to: 3'b000 
+	Parameter STATE_MAKE_BITSTREAM bound to: 3'b001 
+	Parameter STATE_START_CRC_CALCULATION bound to: 3'b010 
+WARNING: [Synth 8-567] referenced signal 'reg_data_out' should be on the sensitivity list [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S00_AXI.v:656]
+INFO: [Synth 8-155] case statement is not full and has no default [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S00_AXI.v:1003]
+WARNING: [Synth 8-6014] Unused sequential element data_out_reg_reg was removed.  [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S00_AXI.v:998]
+INFO: [Synth 8-256] done synthesizing module 'myiphwac_v1_0_S00_AXI' (1#1) [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-638] synthesizing module 'myiphwac_v1_0_S_AXI_INTR' [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S_AXI_INTR.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_NUM_OF_INTR bound to: 1 - type: integer 
+	Parameter C_INTR_SENSITIVITY bound to: -1 - type: integer 
+	Parameter C_INTR_ACTIVE_STATE bound to: -1 - type: integer 
+	Parameter C_IRQ_SENSITIVITY bound to: 1 - type: integer 
+	Parameter C_IRQ_ACTIVE_STATE bound to: 1 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element gen_intr_detection[0].s_irq_lvl_reg was removed.  [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S_AXI_INTR.v:665]
+WARNING: [Synth 8-6014] Unused sequential element intr_counter_reg was removed.  [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S_AXI_INTR.v:452]
+WARNING: [Synth 8-6014] Unused sequential element intr_all_reg was removed.  [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S_AXI_INTR.v:484]
+WARNING: [Synth 8-6014] Unused sequential element intr_ack_all_reg was removed.  [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S_AXI_INTR.v:497]
+WARNING: [Synth 8-6014] Unused sequential element intr_ack_all_ff_reg was removed.  [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S_AXI_INTR.v:511]
+WARNING: [Synth 8-6014] Unused sequential element intr_all_ff_reg was removed.  [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S_AXI_INTR.v:512]
+INFO: [Synth 8-256] done synthesizing module 'myiphwac_v1_0_S_AXI_INTR' (2#1) [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S_AXI_INTR.v:4]
+INFO: [Synth 8-638] synthesizing module 'CRC' [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/crc_hwac.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/crc_hwac.v:54]
+INFO: [Synth 8-256] done synthesizing module 'CRC' (3#1) [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/crc_hwac.v:23]
+INFO: [Synth 8-256] done synthesizing module 'myiphwac_v1_0' (4#1) [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0.v:4]
+INFO: [Synth 8-256] done synthesizing module 'design_1_myiphwac_0_0' (5#1) [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ip/design_1_myiphwac_0_0/synth/design_1_myiphwac_0_0.v:58]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[31]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[30]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[29]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[28]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[27]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[26]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[25]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[24]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[23]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[22]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[21]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[20]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[19]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[18]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[17]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[16]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[15]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[14]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[13]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[12]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[11]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[10]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[9]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[8]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[7]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[6]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[5]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[4]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[3]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[2]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WDATA[1]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WSTRB[3]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WSTRB[2]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WSTRB[1]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_WSTRB[0]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S_AXI_INTR has unconnected port S_AXI_ARPROT[0]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWSIZE[2]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWSIZE[1]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWSIZE[0]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWLOCK
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWCACHE[3]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWCACHE[2]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWCACHE[1]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWCACHE[0]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWQOS[3]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWQOS[2]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWQOS[1]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWQOS[0]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWREGION[3]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWREGION[2]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWREGION[1]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWREGION[0]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWUSER[-1]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWUSER[0]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[3]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[2]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[1]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_WUSER[-1]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_WUSER[0]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_ARSIZE[2]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_ARSIZE[1]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_ARSIZE[0]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_ARLOCK
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_ARCACHE[3]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_ARCACHE[2]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_ARCACHE[1]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_ARCACHE[0]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_ARQOS[3]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_ARQOS[2]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_ARQOS[1]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_ARQOS[0]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_ARREGION[3]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_ARREGION[2]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_ARREGION[1]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_ARREGION[0]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_ARUSER[-1]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_ARUSER[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 544.375 ; gain = 243.367
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 544.375 ; gain = 243.367
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.207 . Memory (MB): peak = 887.684 ; gain = 4.988
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 887.684 ; gain = 586.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 887.684 ; gain = 586.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 887.684 ; gain = 586.676
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'axi_ruser_reg[-1:0]' into 'axi_buser_reg[-1:0]' [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S00_AXI.v:291]
+WARNING: [Synth 8-6014] Unused sequential element axi_ruser_reg was removed.  [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S00_AXI.v:291]
+INFO: [Synth 8-5545] ROM "state_var" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "bit_stream_reg" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "current_counter" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "address" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "crc_cal_enable_out" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element axi_awlen_cntr_reg was removed.  [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S00_AXI.v:344]
+WARNING: [Synth 8-6014] Unused sequential element axi_arlen_cntr_reg was removed.  [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S00_AXI.v:501]
+WARNING: [Synth 8-6014] Unused sequential element address_reg was removed.  [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S00_AXI.v:999]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'CRC'
+INFO: [Synth 8-5546] ROM "lfsr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "crcin" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_in" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "crc_out" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "counter" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              000 |                              000
+                 iSTATE0 |                              001 |                              001
+                 iSTATE1 |                              010 |                              010
+                 iSTATE2 |                              011 |                              011
+                 iSTATE3 |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'CRC'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:55 ; elapsed = 00:00:58 . Memory (MB): peak = 887.684 ; gain = 586.676
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+	   3 Input      9 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 4     
+	   2 Input      7 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 12    
+	   3 Input      1 Bit         XORs := 4     
+	 237 Input      1 Bit         XORs := 1     
+	 276 Input      1 Bit         XORs := 2     
+	   4 Input      1 Bit         XORs := 1     
+	 119 Input      1 Bit         XORs := 1     
+	 391 Input      1 Bit         XORs := 1     
+	  62 Input      1 Bit         XORs := 1     
+	 450 Input      1 Bit         XORs := 1     
+	  14 Input      1 Bit         XORs := 1     
+	 501 Input      1 Bit         XORs := 1     
+	 515 Input      1 Bit         XORs := 2     
+	 518 Input      1 Bit         XORs := 1     
+	 517 Input      1 Bit         XORs := 2     
+	 451 Input      1 Bit         XORs := 1     
+	 509 Input      1 Bit         XORs := 1     
+	  32 Input      1 Bit         XORs := 1     
+	 484 Input      1 Bit         XORs := 1     
+	 487 Input      1 Bit         XORs := 1     
+	 392 Input      1 Bit         XORs := 1     
+	 503 Input      1 Bit         XORs := 1     
++---Registers : 
+	             1024 Bit    Registers := 3     
+	               32 Bit    Registers := 36    
+	               16 Bit    Registers := 3     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 6     
+	                5 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 7     
+	                1 Bit    Registers := 25    
++---Muxes : 
+	   2 Input   1024 Bit        Muxes := 3     
+	   4 Input   1024 Bit        Muxes := 2     
+	   5 Input   1024 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 5     
+	   5 Input     16 Bit        Muxes := 1     
+	   5 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 5     
+	   4 Input      9 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 65    
+	   4 Input      1 Bit        Muxes := 8     
+	  35 Input      1 Bit        Muxes := 34    
+	   5 Input      1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module myiphwac_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   3 Input      9 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 4     
+	   2 Input      7 Bit       Adders := 2     
++---Registers : 
+	             1024 Bit    Registers := 3     
+	               32 Bit    Registers := 35    
+	               16 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 6     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input   1024 Bit        Muxes := 2     
+	   4 Input   1024 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 5     
+	   4 Input      9 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 58    
+	   4 Input      1 Bit        Muxes := 8     
+	  35 Input      1 Bit        Muxes := 34    
+	   5 Input      1 Bit        Muxes := 1     
+Module myiphwac_v1_0_S_AXI_INTR 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 13    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 5     
+Module CRC 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 12    
+	   3 Input      1 Bit         XORs := 4     
+	 237 Input      1 Bit         XORs := 1     
+	 276 Input      1 Bit         XORs := 2     
+	   4 Input      1 Bit         XORs := 1     
+	 119 Input      1 Bit         XORs := 1     
+	 391 Input      1 Bit         XORs := 1     
+	  62 Input      1 Bit         XORs := 1     
+	 450 Input      1 Bit         XORs := 1     
+	  14 Input      1 Bit         XORs := 1     
+	 501 Input      1 Bit         XORs := 1     
+	 515 Input      1 Bit         XORs := 2     
+	 518 Input      1 Bit         XORs := 1     
+	 517 Input      1 Bit         XORs := 2     
+	 451 Input      1 Bit         XORs := 1     
+	 509 Input      1 Bit         XORs := 1     
+	  32 Input      1 Bit         XORs := 1     
+	 484 Input      1 Bit         XORs := 1     
+	 487 Input      1 Bit         XORs := 1     
+	 392 Input      1 Bit         XORs := 1     
+	 503 Input      1 Bit         XORs := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	               11 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input   1024 Bit        Muxes := 1     
+	   5 Input   1024 Bit        Muxes := 2     
+	   5 Input     16 Bit        Muxes := 1     
+	   5 Input     11 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'axi_awlen_reg[7:0]' into 'axi_awlen_reg[7:0]' [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S00_AXI.v:295]
+INFO: [Synth 8-4471] merging register 'hwac_inputcontrol_reg1_reg[31:0]' into 'hwac_inputcontrol_reg1_reg[31:0]' [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S00_AXI.v:678]
+INFO: [Synth 8-4471] merging register 'axi_arlen_reg[7:0]' into 'axi_arlen_reg[7:0]' [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S00_AXI.v:503]
+WARNING: [Synth 8-6014] Unused sequential element axi_awlen_reg was removed.  [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S00_AXI.v:295]
+WARNING: [Synth 8-6014] Unused sequential element hwac_inputcontrol_reg1_reg was removed.  [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S00_AXI.v:678]
+WARNING: [Synth 8-6014] Unused sequential element axi_arlen_reg was removed.  [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S00_AXI.v:503]
+INFO: [Synth 8-5545] ROM "state_var" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "bit_stream_reg" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element axi_arlen_cntr_reg was removed.  [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S00_AXI.v:501]
+WARNING: [Synth 8-6014] Unused sequential element axi_awlen_cntr_reg was removed.  [d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ipshared/14cd/hdl/myiphwac_v1_0_S00_AXI.v:344]
+INFO: [Synth 8-5546] ROM "data_in" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lfsr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "crcin" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWSIZE[2]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWSIZE[1]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWSIZE[0]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWLOCK
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWCACHE[3]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWCACHE[2]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWCACHE[1]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWCACHE[0]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design myiphwac_v1_0_S00_AXI has unconnected port S_AXI_AWQOS[3]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/crc_cal /method_select_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/myiphwac_v1_0_S00_AXI_inst /\state_var_reg[2] )
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'inst/myiphwac_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/myiphwac_v1_0_S00_AXI_inst /\axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'inst/myiphwac_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/myiphwac_v1_0_S00_AXI_inst /\axi_bresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rresp_reg[0]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[1]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[2]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[3]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[4]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[5]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[5]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[6]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[7]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[7]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[8]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[8]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[9]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[9]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[10]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[10]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[11]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[12]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[12]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[13]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[13]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[14]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[15]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[16]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[16]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[17]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[17]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[18]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[18]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[19]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[19]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[20]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[20]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[21]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[21]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[22]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[23]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[24]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[24]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[25]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[25]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[26]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[26]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[27]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[27]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[28]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[28]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[29]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[29]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[30]'
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[30]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[31] )
+INFO: [Synth 8-3886] merging instance 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_bresp_reg[0]' (FDRE) to 'inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (hwac_inputcontrol_reg1_reg[31]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (hwac_inputcontrol_reg1_reg[30]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (hwac_inputcontrol_reg1_reg[29]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (hwac_inputcontrol_reg1_reg[28]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (hwac_inputcontrol_reg1_reg[27]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (hwac_inputcontrol_reg1_reg[26]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (hwac_inputcontrol_reg1_reg[25]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (hwac_inputcontrol_reg1_reg[24]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (hwac_inputcontrol_reg1_reg[23]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (hwac_inputcontrol_reg1_reg[22]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (hwac_inputcontrol_reg1_reg[21]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (hwac_inputcontrol_reg1_reg[20]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (hwac_inputcontrol_reg1_reg[19]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (hwac_inputcontrol_reg1_reg[18]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (hwac_inputcontrol_reg1_reg[17]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (hwac_inputcontrol_reg1_reg[16]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (hwac_inputcontrol_reg1_reg[15]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (hwac_inputcontrol_reg1_reg[14]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (hwac_inputcontrol_reg1_reg[13]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (hwac_inputcontrol_reg1_reg[12]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (hwac_inputcontrol_reg1_reg[11]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (state_var_reg[2]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[31]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[30]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[29]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[28]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[27]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[26]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[25]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[24]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[23]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[22]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[21]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[20]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[19]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[18]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[17]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[16]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[15]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[14]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[13]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[12]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[11]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[10]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[9]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[8]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[7]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[6]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[5]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[4]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[3]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[2]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[1]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (bit_stream_reg1_reg[0]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (axi_bresp_reg[1]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (axi_buser_reg[-1]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (axi_buser_reg[0]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (axi_rresp_reg[1]) is unused and will be removed from module myiphwac_v1_0_S00_AXI.
+INFO: [Synth 8-3332] Sequential element (inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_bresp_reg[1]) is unused and will be removed from module design_1_myiphwac_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_awaddr_reg[1]) is unused and will be removed from module design_1_myiphwac_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_awaddr_reg[0]) is unused and will be removed from module design_1_myiphwac_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_araddr_reg[1]) is unused and will be removed from module design_1_myiphwac_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_araddr_reg[0]) is unused and will be removed from module design_1_myiphwac_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rdata_reg[31]) is unused and will be removed from module design_1_myiphwac_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/myiphwac_v1_0_S_AXI_INTR_inst/axi_rresp_reg[1]) is unused and will be removed from module design_1_myiphwac_0_0.
+WARNING: [Synth 8-3332] Sequential element (method_select_reg) is unused and will be removed from module CRC.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:18 ; elapsed = 00:01:22 . Memory (MB): peak = 918.082 ; gain = 617.074
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:31 ; elapsed = 00:01:36 . Memory (MB): peak = 918.281 ; gain = 617.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:33 ; elapsed = 00:01:37 . Memory (MB): peak = 928.238 ; gain = 627.230
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:37 ; elapsed = 00:01:42 . Memory (MB): peak = 996.367 ; gain = 695.359
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:40 ; elapsed = 00:01:44 . Memory (MB): peak = 996.367 ; gain = 695.359
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:40 ; elapsed = 00:01:44 . Memory (MB): peak = 996.367 ; gain = 695.359
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:40 ; elapsed = 00:01:45 . Memory (MB): peak = 996.367 ; gain = 695.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:40 ; elapsed = 00:01:45 . Memory (MB): peak = 996.367 ; gain = 695.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:45 ; elapsed = 00:01:50 . Memory (MB): peak = 996.367 ; gain = 695.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:45 ; elapsed = 00:01:50 . Memory (MB): peak = 996.367 ; gain = 695.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    12|
+|2     |LUT1   |     7|
+|3     |LUT2   |  2173|
+|4     |LUT3   |   100|
+|5     |LUT4   |  1320|
+|6     |LUT5   |   237|
+|7     |LUT6   |  1401|
+|8     |MUXF7  |   256|
+|9     |MUXF8  |    92|
+|10    |FDCE   |  1072|
+|11    |FDRE   |  4233|
+|12    |FDSE   |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------------------------+-------------------------+------+
+|      |Instance                          |Module                   |Cells |
++------+----------------------------------+-------------------------+------+
+|1     |top                               |                         | 10904|
+|2     |  inst                            |myiphwac_v1_0            | 10904|
+|3     |    crc_cal                       |CRC                      |  3372|
+|4     |    myiphwac_v1_0_S00_AXI_inst    |myiphwac_v1_0_S00_AXI    |  7481|
+|5     |    myiphwac_v1_0_S_AXI_INTR_inst |myiphwac_v1_0_S_AXI_INTR |    43|
++------+----------------------------------+-------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:45 ; elapsed = 00:01:50 . Memory (MB): peak = 996.367 ; gain = 695.359
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 156 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:17 ; elapsed = 00:01:37 . Memory (MB): peak = 996.367 ; gain = 352.051
+Synthesis Optimization Complete : Time (s): cpu = 00:01:45 ; elapsed = 00:01:50 . Memory (MB): peak = 996.367 ; gain = 695.359
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 360 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+94 Infos, 181 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:50 ; elapsed = 00:01:55 . Memory (MB): peak = 996.367 ; gain = 707.016
+INFO: [Common 17-1381] The checkpoint 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.runs/design_1_myiphwac_0_0_synth_1/design_1_myiphwac_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP d:/ADS/SoC_Intr_cache/SoC_Intr_cache.srcs/sources_1/bd/design_1/ip/design_1_myiphwac_0_0/design_1_myiphwac_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 4 cell refs.
+INFO: [Common 17-1381] The checkpoint 'D:/ADS/SoC_Intr_cache/SoC_Intr_cache.runs/design_1_myiphwac_0_0_synth_1/design_1_myiphwac_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_myiphwac_0_0_utilization_synth.rpt -pb design_1_myiphwac_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.143 . Memory (MB): peak = 996.367 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 29 18:20:52 2017...
